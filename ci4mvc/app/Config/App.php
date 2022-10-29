@@ -24,7 +24,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://localhost:8080/';
+    public $baseURL = 'http://164.92.141.219/public';
 
     /**
      * --------------------------------------------------------------------------
