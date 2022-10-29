@@ -1,0 +1,21 @@
+/*ul.pagination  {*/
+/*    background-color: red !important;*/
+/*    text-align: center;*/
+/*    margin: 0 auto;*/
+/*}*/
+
+/*ul.pagination li a {*/
+/*    color: #fff;*/
+/*    padding: 10px;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*ul.pagination .active {*/
+/*    color: #000000;*/
+/*    background-color: #4e73df;*/
+/*}*/
+
+.status {
+    border-radius: 5px;
+    color: #fff;
+}
