@@ -14,7 +14,7 @@
 
     <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
-        <a class="nav-link" href="<?php echo base_url(); ?>/admin">
+        <a class="nav-link" href="<?php echo base_url(); ?>/index.php/admin">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Dashboard</span></a>
     </li>
@@ -27,25 +27,25 @@
     </div>
     <!-- Nav Item - Customers -->
     <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url(); ?>/customers">
+        <a class="nav-link" href="<?php echo base_url(); ?>/index.php/customers">
             <i class="fas fa-fw fa-users"></i>
             <span>Clienti</span></a>
     </li>
 
     <!-- Nav Item - Dispozitive -->
     <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url(); ?>/devices">
+        <a class="nav-link" href="<?php echo base_url(); ?>/index.php/devices">
             <i class="fas fa-fw fa-cogs"></i>
             <span>Dispozitive</span></a>
     </li>
     <!--  Categories -->
     <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url(); ?>/categories">
+        <a class="nav-link" href="<?php echo base_url(); ?>/index.php/categories">
             <i class="fas fa-fw fa-users"></i>
             <span>Categorii</span></a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url(); ?>/statuses">
+        <a class="nav-link" href="<?php echo base_url(); ?>/index.php/statuses">
             <i class="fa fa-tasks text-white"></i>
             <span>Statusuri</span></a>
     </li>
@@ -60,7 +60,7 @@
 
     <!-- Nav Item - Dashboard -->
     <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url(); ?>/admin">
+        <a class="nav-link" href="<?php echo base_url(); ?>/index.php/admin">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>SMSO</span></a>
     </li>
