@@ -42,6 +42,7 @@ $routes->get('/', 'User\UserController::login');
 $routes->get('/login', 'User\UserController::login');
 $routes->post('login', 'User\UserController::validateLogin');
 $routes->get('/logout', 'User\UserController::delete');
+$routes->get('/users', 'User\UserController::users');
 
 $routes->get('/admin', 'Admin\AdminController::index', ['filter' => 'login']);
 // devices list

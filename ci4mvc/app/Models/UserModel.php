@@ -10,6 +10,7 @@ class UserModel extends \CodeIgniter\Model
     protected $returnType = 'App\Entities\User';
     protected $useTimestamps = true;
     protected $beforeInsert = ['hashPassword'];
+    protected $hidden = ['created_at', 'updated_at', 'password', 'password_hash'];
 
     protected $validationRules = [
         'name' => 'required',
