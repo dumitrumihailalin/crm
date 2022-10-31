@@ -62,8 +62,8 @@
                                         <td> <?= $status->status_id; ?></td>
                                         <td> <?= $status->status_name; ?></td>
                                         <td>
-                                            <a href="<?php echo base_url(); ?>/statuses/edit/<?= $status->status_id; ?>" class="btn btn-primary btn-sm">Editeaza status</a>
-                                            <a href="<?php echo base_url(); ?>/statuses/delete/<?= $status->status_id; ?>" class="btn btn-outline-danger btn-sm <?= $status->count_devices > 0 ? 'disabled': '';?>">
+                                            <a href="<?php echo base_url(); ?>/index.php/statuses/edit/<?= $status->status_id; ?>" class="btn btn-primary btn-sm">Editeaza status</a>
+                                            <a href="<?php echo base_url(); ?>/index.php/statuses/delete/<?= $status->status_id; ?>" class="btn btn-outline-danger btn-sm <?= $status->count_devices > 0 ? 'disabled': '';?>">
                                                 Sterge status</a> Dispozitive: <?= $status->count_devices ?>
                                         </td>
                                     </tr>
