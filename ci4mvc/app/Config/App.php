@@ -24,7 +24,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://164.92.141.219/index.php';
+    public $baseURL = 'http://164.92.141.219';
 
     /**
      * --------------------------------------------------------------------------
@@ -37,7 +37,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-//    public $indexPage = 'index.php';
+    public $indexPage = 'index.php';
 
     /**
      * --------------------------------------------------------------------------
@@ -109,7 +109,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $appTimezone = 'America/Chicago';
+    public $appTimezone = 'Bucharest/Europe';
 
     /**
      * --------------------------------------------------------------------------
