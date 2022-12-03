@@ -73,8 +73,8 @@ class AdminDevicesController extends BaseController
         $customer = model(CustomerModel::class);
         $customer = $customer->where(['customer_id' => $data['device_customer_id']])->first();
         $deviceModel->save($data);
-        $smso = new SmsO();
-        $smso->sendMsg($customer['customer_phone'], $data['device_name'], $data['device_status']);
+//        $smso = new SmsO();
+//        $smso->sendMsg($customer['customer_phone'], $data['device_name'], $data['device_status']);
 
         return redirect()->to('/devices/add?device_customer_id='.$data['device_customer_id'])->with('msg', 'Dispozitivul a fost adaugat');
     }
@@ -129,7 +129,7 @@ class AdminDevicesController extends BaseController
         }
     }
 
-    public function pdf()
+    public function print()
     {
         $pdf = new GeneratePdf();
         $this->response->setHeader("Content-Type", "application/pdf");

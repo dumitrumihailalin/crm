@@ -272,7 +272,7 @@
                                                 <i class="fas fa-fw fa-trash-alt"></i>
                                             </a>
                                             </a>
-                                            <a href="/devices/pdf/<?php echo $device['device_id']; ?>" alt="Print" class="btn btn-primary btn-sm">
+                                            <a href="/devices/print/<?php echo $device['device_id']; ?>" alt="Print" class="btn btn-primary btn-sm">
                                                 <i class="fas fa-f fa-file-pdf"></i>
                                             </a>
                                         </td>

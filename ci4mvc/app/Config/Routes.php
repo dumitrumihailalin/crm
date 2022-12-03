@@ -53,9 +53,7 @@ $routes->get('/devices/edit/(:num)', 'Devices\AdminDevicesController::edit');
 $routes->get('/devices/new', 'Devices\AdminDevicesController::new');
 $routes->post('/devices/store', 'Devices\AdminDevicesController::store');
 $routes->post('/devices/update', 'Devices\AdminDevicesController::update');
-$routes->get('/devices/pdf/(:num)', 'Devices\AdminDevicesController::pdf');
-
-
+$routes->get('/devices/print/(:num)', 'Devices\AdminDevicesController::print');
 
 // customers
 $routes->get('/customers', 'Customers\CustomersController::index');
